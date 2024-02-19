@@ -1,0 +1,36 @@
+h1{ 
+    color: blue;
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red,5px 5px 5px yellow;
+}
+.box
+{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px orange,15px 15px 15px green ;
+    color: red;
+}
+.mydiv
+{
+     max-height: 100px;
+     border: 1px solid black;
+     overflow: scroll ;
+} 
+.mydiv2
+{ 
+    min-height: 100px;
+    border: 1px solid black;
+}
+
+.div2{
+    background-color: aquamarine;
+    margin-left: 10px;
+    /* transform: translate(50px,0px); */
+    /* transform: rotate(-10deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(3); */
+    /* transform: scale(1,5); */
+    
+}

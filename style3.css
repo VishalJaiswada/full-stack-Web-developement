@@ -1,0 +1,39 @@
+.hwcss3
+{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    /* background-color: pink; */
+    background-image: radial-gradient(orange,white,green);
+    background-image: linear-gradient(orange ,white  ,green );
+}
+
+#css1
+{
+    position: absolute;
+    top: 1px;
+}
+#css2
+{
+    position: absolute;
+    top: 1px;
+     left: 260px;
+}
+
+#css3
+{
+    position: absolute;
+    top: 130px;
+    left: 130px;
+}
+#css4
+{
+    position: absolute;
+    top: 270px;
+}
+#css5
+{
+    position: absolute;
+    top: 270px;
+    left: 260px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-items in flex box</title>
+    <style>
+           .container{
+            display: flex;
+            flex-wrap: wrap;
+            
+            background-color: #fff;
+            border: 1px solid black;
+            color: aliceblue;
+            height: 10vh;
+        }
+        .item{
+            width: 50px;
+            /* height: 50px; */
+            background-color: #6412e9;
+            border: 1px solid black;
+
+        }
+        .stretch{
+            align-items: stretch;
+        }
+        .start{
+            align-items: start;
+        }
+        .end{
+            align-items: end;
+        }
+         
+        .center
+        {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+        <!-- align items in flex box used for top to bottom to do flex -->
+        <h1>align-items:stretch(default)</h1>
+       <div class="container stretch">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+       </div>
+       <h1>align-items:start</h1>
+       <div class="container start">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+       </div>
+       <h1>align-items:flex-end</h1>
+       <div class="container end">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+       </div>
+       
+       <h1>align-items:flex-center</h1>
+       <div class="container center">
+             <div class="item">1</div>
+             <div class="item">2</div>
+             <div class="item">3</div>
+             <div class="item">4</div>
+       </div>
+</body>
+</html>

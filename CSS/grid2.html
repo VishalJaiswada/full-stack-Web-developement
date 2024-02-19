@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages Like Linkedin</title>
+   <style>
+    .container{
+         display: grid;
+         height: 100vh;
+         grid-template-areas: 
+         "header header header"
+         "maincontent maincontent sidebar"
+         "footer footer footer";
+    }
+    .header{
+        grid-area: header;
+          background-color: red;
+    }
+    .footer{
+        grid-area: footer;
+          background-color: green;
+    }
+    .sidebar{
+        grid-area: sidebar;
+          background-color: yellow;
+    }
+    .maincontent{
+        grid-area: maincontent;
+          background-color: blue;
+    }
+   </style>
+</head>
+<body>
+      <div class="container">
+        <div class="header">Header</div>
+        <div class="footer">Footer</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="maincontent">Main Content</div>
+        
+      </div>
+</body>
+</html>

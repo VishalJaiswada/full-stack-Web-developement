@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Properties Implementation</title>
+    <style>
+        .container{
+            display:grid;
+            /* grid-template-columns: auto auto auto; */
+            grid-template-columns: repeat(6,1fr);
+            /* grid-template-rows:100px 200px; */
+            /* grid-column-gap:20px ;
+            grid-row-gap: 10px; */
+            /* justify-content: space-evenly; */
+            border: 2px solid red;
+            /* align-content: space-evenly; */
+            grid-row-gap: 10px;
+            justify-items:stretch;
+            height: 400px;
+            grid-auto-flow: column;
+        }
+        div.item{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+         
+     </div>
+</body>
+</html>

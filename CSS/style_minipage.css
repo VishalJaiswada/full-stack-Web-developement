@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&family=Pacifico&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+p{
+    font-family: 'Mansalva', cursive;
+    font-family: 'Pacifico', cursive;
+}
+.navbar{
+     position: sticky;
+     top: 0px;
+     width: 100%;
+     box-shadow: 0px 2px rgba(0,0,0,0.2);
+     background-color: #838080;
+
+}
+.navbar-nav{
+    list-style-type: none;
+    padding: 20px 0px;
+    vertical-align: middle;
+}
+.nav-item
+{
+    display: inline-block;
+    margin: 0px 60px;
+    padding-bottom: 0px;
+}
+.nav-link
+{
+     text-decoration: none;
+     color: #1a3281;
+     font-weight:bold ;
+}
+.nav-link:hover{
+    color: red;
+}
+
+article h1{
+      font-size: 45px;
+      position: relative;
+      top: 80px;
+}
+article p{
+   
+    position: relative;
+    top: 70px;
+}
+.content{
+    background-image: linear-gradient(#e66465,rgba(231, 91, 231, 0.533));
+    padding:20px 80px;
+    height: 130vh;
+}
+img{
+    width: 200px;
+}
+
+.content>section{
+   margin:100px 0px ; 
+}
+.float-right{
+    float: right;
+    /* margin-left: 10px; */
+}
+.float-left
+{
+    float: left;
+}
+
+.bot-icon{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.bot-icon img{
+    width: 70px;
+}

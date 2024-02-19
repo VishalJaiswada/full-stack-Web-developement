@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector in HTML</title>
+    <style>
+        a[target="_blank"]{
+            background-color: #0a8dcf;
+            color:greenyellow;
+            
+        }
+        a[target="_parent"]{
+
+            background-color: green;
+            color:rgb(34, 0, 255);
+            
+        }
+        header >a{
+            background-color: #ec60ad;
+        }
+      h1::after {
+        content:" Love!";
+        color: #cd7c7c;
+      }
+      h1::before {
+      
+        content:"Hate!";
+        color: #df0a0a;
+      }
+    </style>
+</head>
+<body>
+
+      <!-- associativity-> (inline > id >class >element) -->
+      <header>
+             <a href="#">GYM</a>
+             <ul>
+                <li>Banana</li>
+                <a href="#">V&V</a>
+             </ul>
+             <a href="#">Fonder & CEO</a>
+      </header>
+      <a href="https://www.youtube.com/VishalJaiswad" target="_parent">Youtube Link</a>
+      <br>
+      <a href="https://www.linkedin/VishalJaiswada" target="_blank">Linkedin id</a>
+
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h2>Lorem ipsum dolor, sit amet consectetur adipisicing.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cumque,
+         alias voluptatem obcaecati ad maiores? Provident tempore,
+          et quaerat velit exercitationem voluptatem error omnis id 
+          veritatis consequatur porro nihil dolorem.</p>
+</body>
+</html>
