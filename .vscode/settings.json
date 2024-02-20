@@ -1,3 +1,15 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "search-node-modules.useLastFolder": true,
+    "node-module-intellisense.autoStripExtensions": [
+
+        ".js",
+        ".jsx",
+        ".ts",
+        ".d.ts",
+        ".tsx"
+    ],
+    "node-module-intellisense.modulePaths": [
+        
+    ]
 }
