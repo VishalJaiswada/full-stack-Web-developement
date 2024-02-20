@@ -1,6 +1,5 @@
 {
     "liveServer.settings.port": 5501,
-    
     "window.zoomLevel": 3,
     "diffEditor.ignoreTrimWhitespace": false,
     "C_Cpp.autocompleteAddParentheses": true,
@@ -21,14 +20,26 @@
     "npm.keybindingsChangedWarningShown": true,
     "npm.oldKeybindings.enable": true,
     "node-module-intellisense.autoStripExtensions": [
-
         ".js",
         ".jsx",
         ".ts",
         ".d.ts",
         ".tsx"
     ],
-    "node-module-intellisense.modulePaths": [
-        
-    ]
+    "node-module-intellisense.modulePaths": [],
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Run index.js",
+                "type": "shell",
+                "command": "node",
+                "args": ["index.js"],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+        ]
+    }
 }
