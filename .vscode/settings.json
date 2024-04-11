@@ -41,5 +41,27 @@
                 }
             }
         ]
-    }
+    },
+    "standard._legacyModuleResolve": true,
+    "standard.autoFixOnSave": true,
+    "standard.enableGlobally": true,
+    "standard.treatErrorsAsWarnings": true,
+    "tabnine.ignoreCertificateErrors": true,
+    "tabnine.logEngine": true,
+    "tabnine.receiveBetaChannelUpdates": true,
+    "cmake.allowCommentsInPresetsFile": true,
+    "cmake.ctest.allowParallelJobs": true,
+    "github.copilot.chat.terminalChatLocation": "quickChat",
+    "debug.allowBreakpointsEverywhere": true,
+    "tabnine.disableFileRegex": [
+
+    ],
+    "tabnine.disableLineRegex": [
+
+    ],
+    "cmake.allowUnsupportedPresetsVersions": true,
+    "git.allowForcePush": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "typescript.preferGoToSourceDefinition": true,
+    "javascript.preferGoToSourceDefinition": true
 }
