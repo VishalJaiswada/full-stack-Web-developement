@@ -45,3 +45,10 @@ for(let i=1;i<=100;i++){
 document.body.appendChild(myDiv);
 const t4=performance.now();
 console.log("This took: "+(t4-t3)+"ms");
+
+
+// setTimeOut method 
+
+setTimeout(function(){
+   console.log("Hi ,everyone!");
+},3000);
