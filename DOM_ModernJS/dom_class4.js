@@ -81,7 +81,7 @@
 // }).then((value)=>{console.log(value)});
 
 
-// Async function creation 
+// Async function creation for more than one Promises
 
 // async function abcd(){
 //    // return 7;
@@ -114,11 +114,30 @@
 // }
 
 
-// Fetch API 
+// Fetch API  :>>>>>>>>
  
-async function utility(){
-    let content = await fetch('https://jsonplaceholder.typicode.com/todos/1');
-    let output = await content.json();
-    console.log(output);
-}
-utility();
+// get call for fetch the data from the server
+
+// async function utility(){
+//     let content = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//     let output = await content.json();
+//     console.log(output);
+// }
+// utility();
+
+// post call for fetch the data from the server
+
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  body: JSON.stringify({
+    title: 'Vishal Patel',
+    body: 'GirlFriend Back',
+    userId: 1,
+    GFweight:45,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
