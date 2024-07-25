@@ -91,22 +91,34 @@
 // for multiple function creation using async function
 
 
-async function utility(){
+// async function utility(){
 
-    let delhiMausam = new Promise((resolve,reject)=>{
-        setTimeout(() => {
-            resolve("Delhi me bahut garmi hai");
-        }, 5000);
-    })
+//     let delhiMausam = new Promise((resolve,reject)=>{
+//         setTimeout(() => {
+//             resolve("Delhi me bahut garmi hai");
+//         }, 5000);
+//     })
     
-    let MaharashtraMausam = new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve("Maharashtra me cool mausam hai");
-        },7000);
-    })
+//     let MaharashtraMausam = new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve("Maharashtra me cool mausam hai");
+//         },7000);
+//     })
+      
+//     // we can use await method to stop another exectution till its completed
+ 
+//     let dM =  delhiMausam ;
+//     let mM =  MaharashtraMausam ;
 
-    let dM = delhiMausam ;
-    let mM = MaharashtraMausam ;
+//     return [dM,mM];
+// }
 
-    return [dM,mM];
+
+// Fetch API 
+ 
+async function utility(){
+    let content = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+    let output = await content.json();
+    console.log(output);
 }
+utility();
