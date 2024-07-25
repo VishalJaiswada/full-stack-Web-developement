@@ -141,3 +141,15 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 })
   .then((response) => response.json())
   .then((json) => console.log(json));
+
+// Closure in DOM JS -->
+
+function init(){
+    let name ="Vishal Patel";
+    function displayName(){
+       // let name ="Vikas Patel";
+        console.log(name);
+    }
+   return displayName();
+}
+ init();
